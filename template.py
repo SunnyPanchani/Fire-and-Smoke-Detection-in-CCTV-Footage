@@ -1,33 +1,61 @@
 from pathlib import Path
+import logging
+import os
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+project_name = "fire-smoke-detection"
 
 # Define the folder and file structure
 structure = {
     
-        "data/fire/.gitkeep",
-        "data/smoke/.gitkeep",
-        "data/normal/.gitkeep",
-        "models/fire_smoke_model.h5",
-        "src/train_model.py",
-        "src/predict.py",
-        "src/video_inference.py",
-        "src/alert_system.py",
-        "templates/index.html",
-        "static/css/style.css",
-        "app/app.py",
-        "utils/preprocessing.py",
-        "requirements.txt",
-        "README.md",
-        "setup.py",
-        "main.py"
+          ".github/workflows/.gitkeep",
+    "data/.gitkeep",
+    f"{project_name}/__init__.py",
+    f"{project_name}/components/__init__.py",
+    f"{project_name}/components/data_ingestion.py",
+    f"{project_name}/components/data_validation.py",
+    f"{project_name}/components/model_trainer.py",
+    f"{project_name}/constant/__init__.py",
+    f"{project_name}/constant/training_pipeline/__init__.py",
+    f"{project_name}/constant/application.py",
+    f"{project_name}/entity/config_entity.py",
+    f"{project_name}/entity/artifacts_entity.py",
+    f"{project_name}/exception/__init__.py",
+    f"{project_name}/logger/__init__.py",
+    f"{project_name}/pipeline/__init__.py",
+    f"{project_name}/pipeline/training_pipeline.py",
+    f"{project_name}/utils/__init__.py",
+    f"{project_name}/utils/main_utils.py",
+    "reseach/trials.ipynb",
+    "templates/index.html",
+    "app.py",
+    "Dockerfile",
+    "requirements.txt",
+    "setup.py",
+    "test.py",
 
     
 }
 
 # Create the folders and files
-for file in structure:
-    file_path = Path(file)
-    file_path.parent.mkdir(parents=True, exist_ok=True)
-    file_path.touch()
+for filepath in structure:
+    filepath = Path(filepath)
 
+    filedir, filename = os.path.split(filepath)
+
+    if filedir!="":
+        os.makedirs(filedir,exist_ok=True)
+        logging.info(f"Creating directory: {filedir} for the file {filename}")
+
+    
+    if(not os.path.exists(filename)) or (os.path.getsize(filename) == 0):
+        with open(filepath, "w") as f:
+            pass
+            logging.info(f"Creating empty file: {filename}")
+
+    
+    else:
+        logging.info(f"{filename} is already created")
 print("✅ Template folder structure created successfully.")
 
