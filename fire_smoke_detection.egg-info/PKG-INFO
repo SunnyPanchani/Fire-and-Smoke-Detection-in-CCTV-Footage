@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: fire_smoke_detection
+Version: 0.1.0
+Summary: Real-time fire and smoke detection using YOLOv8 and Flask
+Author: Your Name
+Author-email: Your Name <your@email.com>
+Dynamic: author

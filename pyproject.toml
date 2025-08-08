@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fire_smoke_detection"
+version = "0.1.0"
+description = "Real-time fire and smoke detection using YOLOv8 and Flask"
+authors = [
+  { name = "Your Name", email = "your@email.com" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["src*", "utils*"]
