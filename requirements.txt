@@ -1,12 +1,62 @@
-ultralytics==8.1.22
-opencv-python==4.9.0.80
-matplotlib==3.8.4
-pillow==10.2.0
-numpy==1.26.4
-scikit-learn==1.4.2
-pyyaml==6.0.1
+ultralytics==8.3.27
+# opencv-python==4.9.0.80
+# matplotlib==3.8.4
+# pillow==10.2.0
+# numpy==1.26.4
+# scikit-learn==1.4.2
+# pyyaml==6.0.1
+# torch==2.2.2
+# torchvision==0.17.2
+# flask==3.0.3
+# werkzeug==3.0.3
+# -e . 
+
+
+
+# Core YOLOv8 and ML/DL
+
 torch==2.2.2
 torchvision==0.17.2
+thop>=0.1.1  # Optional, for FLOPs computation
+hydra-core>=1.2.0
+tensorboard>=2.4.1
+ipython
+
+# Computer Vision
+opencv-python==4.9.0.80
+pillow==10.2.0
+
+# Data Handling & Utilities
+numpy==1.26.4
+pandas>=1.1.4
+pyyaml==6.0.1
+scikit-learn==1.4.2
+scipy>=1.4.1
+
+# Visualization
+matplotlib==3.8.4
+seaborn>=0.11.0
+tqdm>=4.64.0
+
+# Flask Web App
 flask==3.0.3
 werkzeug==3.0.3
--e . 
+flask-cors
+streamlit>=1.20.0
+
+# System Utilities
+psutil
+gdown
+setuptools>=65.5.1
+gitpython>=3.1.30
+dill==0.3.5.1
+from-root==1.0.2
+
+# Jupyter
+notebook==7.0.0a7
+
+# Requests
+requests>=2.23.0
+
+# Editable installation (your local module)
+-e .
