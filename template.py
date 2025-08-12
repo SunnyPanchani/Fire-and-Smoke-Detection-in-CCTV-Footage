@@ -31,6 +31,7 @@ structure = {
     "templates/index.html",
     "app.py",
     "Dockerfile",
+    ".gitignore"
     "requirements.txt",
     "setup.py",
     "test.py",

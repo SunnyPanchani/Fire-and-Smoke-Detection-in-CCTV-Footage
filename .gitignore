@@ -1,0 +1,63 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environments
+env/
+venv/
+.fire-smoke-yolo/
+fire-smoke-yolo/
+*.env
+*.venv
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+logs/
+*.log
+
+# Model weights and datasets
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.weights
+models/
+runs/
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.webm
+*.jpg
+
+# Temporary files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Streamlit specific
+.streamlit/
+
+# DVC cache
+.dvc/
+.cache/
