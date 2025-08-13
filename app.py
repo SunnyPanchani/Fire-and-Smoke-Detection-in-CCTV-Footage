@@ -2,7 +2,7 @@ import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 
-# Load model
+
 model = YOLO("best.pt")
 
 st.title("YOLO Classification App")
