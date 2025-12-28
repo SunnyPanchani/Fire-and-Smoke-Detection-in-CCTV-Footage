@@ -63,8 +63,8 @@ Cam5=rtsp://admin:admin456@192.168.1.150:554/cam/realmonitor?channel=5&subtype=1
 ### Step 3: Bot Token Configuration
 
 The bot token is already configured in the code:
-- **Bot Token**: `8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0`
-- **Authorized User ID**: `926902525` (your Telegram ID)
+- **Bot Token**: `   `
+- **Authorized User ID**: ` ` (your Telegram ID)
 
 ### Step 4: File Organization
 
