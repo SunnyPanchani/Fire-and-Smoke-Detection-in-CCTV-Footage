@@ -242,7 +242,7 @@ PERSON DETECTED - Cam1
 ### Bot Not Responding
 1. Check internet connection
 2. Verify bot token in code
-3. Ensure user ID matches `926902525`
+3. Ensure user ID matches ` `
 4. Restart the system
 
 ### Cameras Not Starting
