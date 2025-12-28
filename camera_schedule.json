@@ -1,0 +1,8 @@
+{
+  "Cam3": {
+    "enabled": true,
+    "time_range": "all",
+    "created_at": "2025-09-20T11:42:40.059624",
+    "detection_type": "person"
+  }
+}

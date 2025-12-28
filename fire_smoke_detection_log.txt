@@ -1,0 +1,306 @@
+2025-09-20 11:41:01,463 | INFO | ==================================================
+2025-09-20 11:41:01,464 | INFO | Fire & Smoke Detection System Started
+2025-09-20 11:41:01,464 | INFO | ==================================================
+2025-09-20 11:41:01,464 | INFO | Additional logging systems initialized
+2025-09-20 11:41:01,763 | INFO | AI models loaded successfully
+2025-09-20 11:41:01,766 | INFO | Email configuration: Loaded
+2025-09-20 11:41:01,769 | INFO | Telegram configuration loaded for 1 chat(s)
+2025-09-20 11:41:01,774 | INFO | Camera streams loaded: 5 cameras
+2025-09-20 11:41:01,776 | INFO | FIXED NOTIFICATION: ENHANCED SYSTEM READY - AUTO-WELCOME BOT ACTIVE - ENHANCED FIRE DETECTION SYSTEM READY!
+
+SYSTEM STATUS: OPERATIONAL
+Time: 2025-09-20 11:41:01
+
+FIRE DETECTION: 
+\u2705 AI Models: Fire/Smoke (lumi.onnx) + Person/Object (person.onnx)
+\u2705 Real-time monitoring with pixel-level tracking
+\u2705 Adaptive brightness thresholds
+\u2705 Object interference filtering
+\u2705 Active on ALL 5 cameras
+
+TELEGRAM BOT: READY WITH AUTO-WELCOME
+• Cam1
+• Cam2
+• Cam3
+• Cam4
+• Cam5
+
+
+AVAILABLE COMMANDS:
+
+/start - Welcome and detailed help
+/schedule - Interactive camera scheduling  
+/list - View all current schedules
+/status - See active cameras right now
+/cameras - List all available cameras
+/stop CamName - Stop specific camera
+/help - Show help message
+/test - Test bot connection
+
+INSTANT SCHEDULING (Just send these messages):
+• "Cam1 00:00-06:00" - Schedule midnight to 6 AM
+• "Cam1 all" - Schedule 24/7 monitoring
+• "Cam1 off" - Stop monitoring
+
+DETECTION TYPES:
+• FIRE ALERTS: Always active (all cameras)
+• PERSON ALERTS: Only on scheduled cameras
+
+COMMUNICATION:
+• Email: Configured
+• Telegram: Active - Multiple chats
+
+BOT FEATURES:
+\u2705 Auto-welcome for new users - NO /start required
+\u2705 Send any message to get instant welcome and help
+\u2705 Commands work immediately on first interaction
+\u2705 Casual greetings ("hello", "hi") show quick help
+\u2705 Error handling with informative messages
+\u2705 Connection monitoring and auto-recovery
+
+USER EXPERIENCE:
+• First-time users get auto-welcomed with quick help
+• Existing users get immediate command processing
+• Send "hello" or any text to get started instantly
+• All commands work without preliminary setup
+• Bot remembers welcomed users for smooth experience
+
+SYSTEM READY! 
+• Fire detection is running automatically on all cameras
+• Send ANY message to bot to get started (no /start needed)
+• Bot will auto-welcome and show available commands
+• Example: Send "Cam1 all" to start 24/7 person monitoring
+
+The bot is now truly ready for instant use without requiring /start command!
+2025-09-20 11:41:01,794 | INFO | === ENHANCED SYSTEM INITIALIZATION COMPLETED ===
+2025-09-20 11:41:01,799 | INFO | Starting enhanced background services...
+2025-09-20 11:41:01,809 | INFO | Starting InternetMonitor service (attempt 1)
+2025-09-20 11:41:02,814 | INFO | Starting FileCleanup service (attempt 1)
+2025-09-20 11:41:03,816 | INFO | Starting SystemMonitor service (attempt 1)
+2025-09-20 11:41:04,412 | INFO | Email sent to sunnypanchani9099@gmail.com
+2025-09-20 11:41:04,820 | INFO | FIXED Telegram Bot Handler initialized with enhanced connection management
+2025-09-20 11:41:04,822 | INFO | FIXED: Network-resilient Telegram bot thread started with enhanced connection management
+2025-09-20 11:41:04,823 | INFO | Telegram Bot with auto-welcome started successfully
+2025-09-20 11:41:04,830 | INFO | Detailed system statistics: {'cpu_percent': 0.6, 'memory_percent': 41.0, 'disk_free_gb': 295.909481048584, 'disk_used_percent': 68.22914947105093, 'active_cameras': 0, 'total_frames_processed': 0, 'internet_stats': {'is_connected': True, 'total_outages': 0, 'short_outages': 0, 'significant_outages': 0, 'total_downtime_minutes': 0.0, 'longest_outage_minutes': 0.0, 'current_outage_minutes': 0.0, 'last_check_time': 1758348661.8339698, 'uptime_percentage': 100.0, 'last_outage_duration_minutes': 0.0}, 'detection_stats': {'fire_detections': 0, 'smoke_detections': 0, 'valid_fire_detections': 0, 'valid_smoke_detections': 0, 'false_positives_avoided': 0, 'objects_excluded_detections': 0, 'total_frames': 0, 'fire_alerts_sent': 0, 'smoke_alerts_sent': 0, 'last_fire_time': 0, 'last_smoke_time': 0}, 'alerts_size_mb': 2.5211172103881836, 'log_size_mb': 0.0033636093139648438}
+2025-09-20 11:41:06,826 | INFO | FIXED Scheduled Camera Processor initialized with enhanced thread control
+2025-09-20 11:41:06,827 | INFO | Enhanced camera schedule monitor started
+2025-09-20 11:41:06,827 | INFO | Enhanced scheduled camera processor started
+2025-09-20 11:41:06,828 | INFO | Scheduled Camera Processor started successfully
+2025-09-20 11:41:08,829 | INFO | Enhanced services started: 3 + Bot + Scheduler
+2025-09-20 11:41:08,839 | INFO | Starting fire detection for Cam1 (attempt 1)
+2025-09-20 11:41:10,840 | INFO | Starting fire detection for Cam2 (attempt 1)
+2025-09-20 11:41:12,842 | INFO | Starting fire detection for Cam3 (attempt 1)
+2025-09-20 11:41:14,845 | INFO | Starting fire detection for Cam4 (attempt 1)
+2025-09-20 11:41:16,846 | INFO | Starting fire detection for Cam5 (attempt 1)
+2025-09-20 11:41:23,582 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getMe "HTTP/1.1 200 OK"
+2025-09-20 11:42:10,902 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getMe "HTTP/1.1 200 OK"
+2025-09-20 11:42:14,120 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getMe "HTTP/1.1 200 OK"
+2025-09-20 11:42:14,121 | INFO | Application started
+2025-09-20 11:42:15,048 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/deleteWebhook "HTTP/1.1 200 OK"
+2025-09-20 11:42:19,614 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/sendMessage "HTTP/1.1 200 OK"
+2025-09-20 11:42:29,764 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:42:30,215 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/sendMessage "HTTP/1.1 200 OK"
+2025-09-20 11:42:37,058 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:42:39,045 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/sendMessage "HTTP/1.1 200 OK"
+2025-09-20 11:42:39,046 | INFO | FIXED: Auto-welcomed user: Sunny (ID: 926902525)
+2025-09-20 11:42:40,520 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/sendMessage "HTTP/1.1 200 OK"
+2025-09-20 11:42:44,092 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:42:44,566 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/sendMessage "HTTP/1.1 200 OK"
+2025-09-20 11:43:06,901 | INFO | Loaded 1 camera schedules
+2025-09-20 11:43:06,926 | INFO | Starting enhanced monitoring for Cam3 with person detection
+2025-09-20 11:43:06,926 | INFO | Detector cleanup completed for Cam3
+2025-09-20 11:43:06,927 | INFO | Set stop flag for Cam3: False
+2025-09-20 11:43:06,950 | INFO | Started monitoring Cam3 according to schedule
+2025-09-20 11:43:06,954 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:43:07,221 | INFO | Starting controllable person detection monitoring for Cam3
+2025-09-20 11:43:07,221 | INFO | Enhanced person detector initialized for Cam3 with static object detection
+2025-09-20 11:43:07,222 | INFO | Enhanced person detector created for Cam3
+2025-09-20 11:43:08,021 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:43:11,053 | INFO | Validated person alert sent for Cam3: 2 persons detected (Alert #1)
+2025-09-20 11:43:13,650 | INFO | Email sent to sunnypanchani9099@gmail.com
+2025-09-20 11:43:24,890 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/sendPhoto "HTTP/1.1 200 OK"
+2025-09-20 11:43:31,270 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:43:54,497 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:44:07,011 | INFO | Loaded 1 camera schedules
+2025-09-20 11:44:07,112 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:44:17,720 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:44:40,998 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:45:04,247 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:45:07,151 | INFO | Loaded 1 camera schedules
+2025-09-20 11:45:07,620 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:45:27,528 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:45:50,765 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:46:05,880 | WARNING | High CPU usage: 100.0%
+2025-09-20 11:46:07,635 | INFO | Loaded 1 camera schedules
+2025-09-20 11:46:07,665 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:46:11,038 | INFO | Validated person alert sent for Cam3: 1 persons detected (Alert #2)
+2025-09-20 11:46:14,029 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:46:14,269 | INFO | Email sent to sunnypanchani9099@gmail.com
+2025-09-20 11:46:37,302 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:47:00,554 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:47:07,692 | INFO | Loaded 1 camera schedules
+2025-09-20 11:47:07,731 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:47:23,818 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:47:47,079 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:48:07,819 | INFO | Loaded 1 camera schedules
+2025-09-20 11:48:07,961 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:48:10,339 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:48:33,577 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:48:51,368 | INFO | Validated person alert sent for Cam3: 1 persons detected (Alert #3)
+2025-09-20 11:48:54,012 | INFO | Email sent to sunnypanchani9099@gmail.com
+2025-09-20 11:48:56,855 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:49:00,498 | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpcore\_async\connection.py", line 156, in _connect
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\DELL\anaconda3\envs\yoloimag\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: 
+2025-09-20 11:49:08,000 | INFO | Loaded 1 camera schedules
+2025-09-20 11:49:08,356 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:49:22,381 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/sendPhoto "HTTP/1.1 200 OK"
+2025-09-20 11:49:25,951 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:49:49,254 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:50:08,428 | INFO | Loaded 1 camera schedules
+2025-09-20 11:50:08,672 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:50:12,566 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:50:35,875 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:50:42,544 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/sendPhoto "HTTP/1.1 200 OK"
+2025-09-20 11:50:55,879 | INFO | Validated person alert sent for Cam3: 1 persons detected (Alert #4)
+2025-09-20 11:50:58,512 | INFO | Email sent to sunnypanchani9099@gmail.com
+2025-09-20 11:50:59,180 | INFO | HTTP Request: POST https://api.telegram.org/bot8274205287:AAFVYWGa7rB_3fwttHbT3M_2YnaBffZMaq0/getUpdates "HTTP/1.1 200 OK"
+2025-09-20 11:51:07,231 | WARNING | High CPU usage: 100.0%
+2025-09-20 11:51:08,675 | INFO | Loaded 1 camera schedules
+2025-09-20 11:51:08,677 | INFO | Enhanced Schedule Status: 1/1 cameras active - ['Cam3']
+2025-09-20 11:51:09,467 | INFO | Shutdown signal received
+2025-09-20 11:51:09,468 | INFO | === ENHANCED SYSTEM SHUTDOWN INITIATED ===
+2025-09-20 11:51:09,468 | INFO | Stopping enhanced monitoring for Cam3
+2025-09-20 11:51:09,468 | INFO | Set stop flag for Cam3: True
+2025-09-20 11:51:09,718 | INFO | Enhanced system shutdown requested by user

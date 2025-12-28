@@ -1,0 +1,18 @@
+{
+  "last_updated": "2025-09-20T11:51:08.675936",
+  "total_active": 1,
+  "schedules": {
+    "Cam3": {
+      "schedule": {
+        "enabled": true,
+        "time_range": "all",
+        "created_at": "2025-09-20T11:42:40.059624",
+        "detection_type": "person"
+      },
+      "started_at": "2025-09-20T11:43:06.950368",
+      "status": "active",
+      "schedule_type": "single",
+      "time_ranges": 1
+    }
+  }
+}

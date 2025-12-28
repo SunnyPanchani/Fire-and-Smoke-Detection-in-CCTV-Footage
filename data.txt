@@ -1,0 +1,2 @@
+cctv lan id
+cctv lan password
